@@ -1,3 +1,6 @@
+# assuming that the largest number can repeat and we have to exclude each largest number
+# if largest element of array is small this solution can further be optimised using dynamic programming
+
 a = [4, -5, 23, 10, 1, 3, 23, -2, -14]
 def solve(a):
     a = sorted(a,reverse = True)
