@@ -1,3 +1,5 @@
+#If the largest element is small we can further optimise the solution using Dynamic Programming Approach
+
 a = [4, 5, 23, 10, 1, 3, 23, -2, -14]
 def solve(a):
     a = sorted(a,reverse = True)
